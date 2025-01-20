@@ -1,0 +1,68 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "vim_mode": true,
+    "ui_font_size": 20,
+    "buffer_font_size": 18,
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Rosé Pine Moon"
+    },
+
+    "centered_layout": {
+        "left_padding": 0.2,
+        "right_padding": 0.2
+    },
+
+    "auto_install_extensions": {},
+    "restore_on_startup": "last_session",
+    "auto_update": true,
+    "base_keymap": "JetBrains",
+    "confirm_quit": false,
+    "inline_completions": {
+        "disabled_globs": [".env"]
+    },
+    "languages": {
+        "Go": {
+            "inline_completions_disabled_in": ["comment", "string"]
+        }
+    },
+    "current_line_highlight": "gutter",
+    "cursor_blink": false,
+    "cursor_shape": "block",
+    "scrollbar": {
+        "show": "never",
+        "diagnostics": "error"
+    },
+    "preferred_line_length": 80,
+    "journal": {
+        "path": "~/journal",
+        "hour_format": "hour24"
+    },
+    "search": {
+        "whole_word": false,
+        "case_sensitive": false,
+        "include_ignored": false,
+        "regex": false
+    },
+    "show_call_status_icon": false,
+    "show_inline_completions": true,
+    "show_completions_on_input": true,
+    "show_completion_documentation": true,
+    "show_whitespaces": "all",
+    "tab_size": 4,
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "project_panel": {
+        "dock": "left"
+    }
+}
