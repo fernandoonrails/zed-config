@@ -8,8 +8,11 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
     "vim_mode": true,
-    "ui_font_size": 20,
-    "buffer_font_size": 18,
+    "vim": {
+        "toggle_relative_line_numbers": true
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 20,
     "theme": {
         "mode": "system",
         "light": "One Light",
@@ -34,6 +37,14 @@
             "inline_completions_disabled_in": ["comment", "string"]
         }
     },
+    "lsp": {
+        "gopls": {
+            "initialization_options": {
+                "hints": {}
+            }
+        }
+    },
+
     "current_line_highlight": "gutter",
     "cursor_blink": false,
     "cursor_shape": "block",
