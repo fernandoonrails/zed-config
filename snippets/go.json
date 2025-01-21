@@ -1,6 +1,6 @@
 {
     "Handles error, returning nil and the error": {
         "prefix": "errn",
-        "body": ["if err != nil {", "\treturn err, nil", "}"]
+        "body": ["if err != nil {", "\treturn nil, err", "}"]
     }
 }
